@@ -70,4 +70,4 @@ footer{text-align:center;padding:30px 0 0;font-size:13px}footer a{color:#737373;
 document.getElementById('sh').onclick=async()=>{const u=location.href,t='Japan Cottage Command Center';
 try{if(navigator.share){await navigator.share({title:t,text:t,url:u});return}}catch(x){return}
 try{await navigator.clipboard.writeText(u);sh.lastChild.textContent=' Copied';setTimeout(()=>sh.lastChild.textContent=' Share',1500)}catch(x){location.href='sms:?&body='+encodeURIComponent(t+' '+u)}};
-</script></body></html>
+</script><script src="ptr.js" defer></script></body></html>
