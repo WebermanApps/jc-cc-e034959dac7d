@@ -1,0 +1,29 @@
+{
+ "updated": "2026-10-16",
+ "routines": [
+  {
+   "name": "New Akiya Listings Check",
+   "group": "Daily",
+   "schedule_plain": "Daily At 8:03 AM ICT",
+   "status": "paused",
+   "last_run": "Paused since Oct 14, 1:49 PM",
+   "note": "Refreshes listings in both Japan apps. Paused since Oct 14, 1:49 PM ICT."
+  },
+  {
+   "name": "Morning Report",
+   "group": "Reports",
+   "schedule_plain": "Daily At 4:47 AM ICT",
+   "status": "paused",
+   "last_run": "Paused since Oct 14, 1:49 PM",
+   "note": "Paused since Oct 14, 1:49 PM ICT."
+  },
+  {
+   "name": "Evening Report",
+   "group": "Reports",
+   "schedule_plain": "Daily At 6:00 PM ICT",
+   "status": "paused",
+   "last_run": "Paused since Oct 14, 1:49 PM",
+   "note": "Paused since Oct 14, 1:49 PM ICT. Retired by Max's rule, pending removal."
+  }
+ ]
+}
